@@ -5,5 +5,10 @@ module.exports = {
            onlyCategories: ['accessibility']
         }
       },
+    assert: {
+      assertions: {
+        "categories:accessibility": ["error", { minScore: 1 }],
+      },
+    },
   },
 };
